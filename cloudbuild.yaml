@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy']
+  env:
+  - 'CLOUDSDK_CORE_PROJECT=salary-prediction-474417' # Specify your project ID
